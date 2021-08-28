@@ -1,0 +1,24 @@
+{
+  "name": "cypress_loja_compra",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:chrome": "cypress run --env TransferProtocol='http' --browser chrome",
+    "cypress:chrome:headless": "cypress run --env TransferProtocol='http' --browser chrome --headless"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gsilvacon/Cypress_Loja_Compra.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gsilvacon/Cypress_Loja_Compra/issues"
+  },
+  "homepage": "https://github.com/gsilvacon/Cypress_Loja_Compra#readme",
+  "devDependencies": {
+    "cypress": "8.3.0"
+  }
+}

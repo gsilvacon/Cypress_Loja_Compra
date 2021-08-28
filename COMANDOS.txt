@@ -1,0 +1,7 @@
+
+// para instalar os pacotes
+npm install
+
+// para rodar os testes
+npm run cypress:chrome
+npm run cypress:chrome:headless

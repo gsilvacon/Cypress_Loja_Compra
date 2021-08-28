@@ -41,6 +41,12 @@ build/Release
 node_modules/
 jspm_packages/
 
+coverage/
+cypress/screenshots/
+cypress/videos/
+cypress/download/
+package-lock.json
+
 # TypeScript v1 declaration files
 typings/
 
